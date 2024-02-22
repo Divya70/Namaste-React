@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react episode ",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divya70/Namaste-React.git"
+  },
+  "author": "Divya Devi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divya70/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Divya70/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserList":[
+    "last 2 versions"
+   ]
+}

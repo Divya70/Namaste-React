@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is namaste react episode ",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,14 +18,22 @@
   },
   "homepage": "https://github.com/Divya70/Namaste-React#readme",
   "devDependencies": {
+    "@testing-library/react": "^14.2.1",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.11.0",
-    "process": "^0.11.10"
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
   },
-  "browserList":[
+  "browserList": [
     "last 2 versions"
-   ]
+  ]
 }

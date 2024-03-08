@@ -1,0 +1,62 @@
+.logo {
+  width: 100px;
+}
+.nav-container {
+  display: flex;
+}
+.nav-container > ul > li {
+  font-size: 24px;
+}
+.nav-container > ul {
+  gap: 30px;
+  display: flex;
+  list-style-type: none;
+}
+.header-container {
+  border: 1px solid black;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.login-btn {
+  margin-left: 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+  border: none;
+}
+.body-container {
+  margin: 10px;
+}
+.card-container {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+}
+.res-image {
+  width: 100%;
+  border-radius: 5px;
+}
+.search-container {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.search-wrrap {
+  gap: 5px;
+  display: flex;
+}
+.rating{
+  display: flex;
+  gap: 10px;
+}
+.res-name{
+  font-size: 24px;
+  font-weight: 600;
+}
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
